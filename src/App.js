@@ -52,7 +52,7 @@ class App extends Component{
     
     return(
       <div className="App">
-        
+        <h1 className="app-title"> Monster Rolodex</h1>
         { /*
           filteredMonsters.map((monster) => {
             return <h1 key={monster.id}>{monster.name}</h1>
